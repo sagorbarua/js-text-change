@@ -11,12 +11,53 @@
 </head>
 <body>
   <div class="container">
+
     <h2 class="text-info h1">Click the button</h2>
     <button class="btn btn-danger" onclick="changeText()">
       Click me
     </button>
     <h3 id="txt-cng">Hello!!</h3>
+    <hr>
+
+    <h2 class="text-info h1">Click the button</h2>
+    <button class="btn btn-danger" onclick="bulbOn()">
+      Turn on
+    </button>
+    <button class="btn btn-danger" onclick="bulbOff()">
+      Turn off
+    </button>
+    <br>
+    <img id="image_cng" src="images/pic_bulboff.gif" alt="bulboff">
+    <br>
+    <hr>
+
+    <h2 class="text-info h1">Click the button to addition</h2>
+    <button class="btn btn-dark"  onclick="sum()">Calculate</button>
+    <h3 id="sum">Value</h3>
+    <hr>
+
+    <h2 class="text-info h1">Click the button to substruct</h2>
+    <button class="btn btn-dark"  onclick="sub()">Calculate</button>
+    <h3 id="sub">Value</h3>
+    <hr>
+
+    <h2 class="text-info h1">Click the button to multiplication</h2>
+    <button class="btn btn-dark"  onclick="mul()">Calculate</button>
+    <h3 id="mul">Value</h3>
+    <hr>
+
+    <h2 class="text-info h1">Click the button to division</h2>
+    <button class="btn btn-dark"  onclick="div()">Calculate</button>
+    <h3 id="div">Value</h3>
+    <hr>
+
+    Enter your name: <input type="text" onfocus="myFunction(this)">
+
+    <p>When the input field gets focus, a function changes the background-color.</p>
+
   </div>
+
+
 
  
  <script src="script/bootstrap.bundle.min.js"></script>
